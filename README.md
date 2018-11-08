@@ -9,6 +9,7 @@ First, in order to assemble the metagenome into contigs, the following SPAdes co
  ```
  /usr/bin/spades.py -1 /data/metagenomes/160523Alm_D16-4703_1_sequence.fastq.gz -2 /data/metagenomes/160523Alm_D16-4703_2_sequence.fastq.gz --meta -o ~/GIT/Computational-Biology/Final -t 1
  ```
+The server ran out of memory before spades finished its execution. We are currently testing the code with additional memory. Once this is completed, alignment statistics will be extracted.
 
 <br>
 In order to quantify the abundance of different microbes, the two metagenome files were uploaded one codex. The results are as follows.
